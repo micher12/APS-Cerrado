@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="author" content="Salve o Cerrado">
+    <meta name="description" content="Projeto de concientização para ajudar o Cerrado.">
+    <meta name="keywords" content="cerrado,salve,meio ambiente,pegada ecológica,pegada hidrica,desmatamento">
+
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lalezar&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--estilos-->
+    <link rel="stylesheet" href="css/jquery-ui.min.css"><!--jqueryUI-->
+    <link rel="stylesheet" href="css/all.min.css"><!--fontawesome-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--aos-->
+    <link rel="stylesheet" href="css/style.css"><!--estilo da pagina-->
+    <title>Preserve o Cerrado</title>
+</head>
+<body>
+    
+    <header data-aos="fade" class="cabecalho">
+        <div class="center">
+            <div class="flex__header">
+                <div class="logo"><h2>Preserve o Cerrado</h2></div>
+                <nav class="desktop">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#cerrado">Cerrado</a></li>
+                        <li><a href="#aplicativo">Aplicativo</a></li>
+                    </ul>
+                </nav><!--desktop-->
+                <div class="mobile">
+                    <div class="mobile__button">
+                        <span>
+                            <div class="linemain line1"></div><!--line1-->
+                            <div class="linemain line2"></div><!--line1-->
+                            <div class="linemain line3"></div><!--line1-->
+                        </span>
+                    </div><!--mobile-->
+                    <nav class="menu__mobile">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#cerrado">Cerrado</a></li>
+                            <li><a href="#aplicativo">Aplicativo</a></li>
+                        </ul>
+                    </nav>
+                </div><!--mobile-->
+            </div><!--flex__header-->
+        </div><!--center-->
+    </header><!--cabecalho-->
+
+    <section id="home" class="main">
+        <div class="center">
+            <h2 data-aos="fade-up">Cerrado</h2>
+            <div data-aos="fade-up" class="content">
+                <div class="content__about">
+                    <p>O Cerrado é o bioma que possui a menor porcentagem de áreas sobre proteção — apenas 8,21% de seu território é legalmente protegido por unidades de conservação, desse total, 2,85% são unidades de conservação de proteção integral e 5,36% de unidades de conservação de uso sustentável. </p>
+                </div><!--about-->
+                <div class="content__grafico">
+                    <canvas id="myChart"></canvas><!--canvas-->
+                </div><!--grafico-->
+            </div><!--content-->
+        </div><!--center-->
+    </section><!--main-->
+
+    <section id="cerrado" class="cerrado">
+        <div class="center">
+            <div class="cerrado__content">
+                <div data-aos="fade">
+                <h2>Conhecendo o Cerrado.</h2>
+                <p>Cerrado tem grande relevância já que as árvores presentes fazem de forma efetiva a absorção da água da chuva, fazendo com que o Aquífero Guarani se mantenha cheio, de modo que consiga abastecer muitas pessoas que necessitam de sua existência.</p>
+                <p>Podemos repensar atos que agridem o cerrado de forma indireta ou diretamente. Como as queimadas ilegais realizada por fazendeiros ou a absorção da água do lençol freático para a irrigação das plantas.</p>
+                </div>
+
+                <div data-aos="fade">
+                <h2>Como Podemos preservar o Cerrado ?</h2>
+                <p>Um dos grandes problemas da região são as queimadas. Principalmente durante os tempos de seca, os incêndios florestais aumentam e a atividade humana é a causa em 90% dos casos. </p>
+                <p>Para os adultos, pequenos gestos como não descartar bitucas de cigarro no chão e se certificar de que a bituca esteja apagada são algumas ações que podem ser tomadas para a proteção do bioma. No entanto, muitas destas queimadas ocorrem propositalmente, pelo motivo da agropecuária. </p>
+                </div>
+
+                <div data-aos="fade">
+                <h2>E a nova geração ?</h2>
+                <p>O primeiro passo é o <b>conhecimento</b>. É importante que a nova geração saiba quais os riscos que o planeta está correndo e porque isso acontece. Diminuir o consumo de produtos animais, reciclar o lixo, não retirar produtos das florestas (flores, plantas, etc.) e evitar a utilização de plásticos.</p>
+                </div>
+
+                <div data-aos="fade">
+                <h2>Importância</h2>
+                <p>O Cerrado possui uma <b>importância</b> imensa para todo o país, incluindo o equilíbrio hidrológico. Isso acontece porque, apesar do clima semiárido e ambiente com períodos de deficiência hídrica, as águas das chuvas penetram no solo e abastecem aquíferos e nascentes.</p>
+                <p>Dessa forma, o solo da região é rico em água e, por vezes, chega a ser comparado a uma “caixa d’água” para todo o continente.  Nele há grandes reservatórios subterrâneos, dos quais se destaca parte do Aquífero Guarani (segundo maior do mundo).</p>
+                </div>
+
+            </div><!--content-->
+        </div><!--center-->
+    </section><!--cerrado-->
+
+    <section id="aplicativo" class="aplicativo">
+        <div data-aos="fade-up">
+            <div class="celular"></div>
+        </div>
+        <h2 data-aos="zoom-in-up">Conheça nosso <b>Aplicativo!</b></h2>
+        <div data-aos="zoom-in-up"><i  class="fa-solid fa-chevron-down"></i></div>
+
+        <div class="center">
+            <div data-aos="zoom" class="aplicativo__tittle">
+                <p>Como uma forma de concientizar criamos esse aplicativo que calcula seu consumo ecológico que de forma indireta afeta parte do Cerrado.</p>
+            </div>
+            <div data-aos="fade" class="aplicativo__content">
+                <div class="aplicativo__lore">
+                    <div class="android" >
+                    </div><!--android-->
+                    <div>
+                        <a href="Cerrado.apk">Baixar</a>
+                    </div>
+                </div><!--lore-->
+                <div class="content__code">
+                    <div class="qrcode"></div>
+                </div><!--qrcode-->
+            </div><!--aplicativo__content-->
+            
+        </div><!--center-->
+    </section><!--aplicativo-->
+
+    <footer>
+        <div class="center">
+            <div class="footer__content">
+                <div class="footer__single">
+                    <div class="logo"><h2>Preserve o cerrado</h2></div>
+                    <p>O site foi desenvolvido com o foco em chamar mais atenção para o bioma do Cerrado.</p>
+                    <p>Aos poucos ele está diminuindo e nada está acontecendo.</p>
+                </div><!--footer__single-->
+                <div class="footer__single">
+                    <h2>Navegue</h2>
+                    <p><a href="#home">Home</a></p>
+                    <p><a href="#cerrado">Cerrado</a></p>
+                    <p><a href="#aplicativo">Aplicativo</a></p>
+                </div><!--footer__single-->
+                <div class="footer__single">
+                    <h2>Abaixe nosso aplicativo!</h2>
+                    <div class="footer__download">
+                        <div class="android" >
+                        </div><!--android-->
+                        <div>
+                            <a href="Cerrado.apk">Baixar</a>
+                        </div>
+                    </div><!--footer__download-->
+                    <div class="qrcode"></div>
+                </div><!--footer__single-->
+            </div><!--footer__content-->
+
+            <div class="copy">
+                <p>Preserve o Cerrado &copy; 2023</p>
+            </div><!---->
+        </div><!--center-->
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script><!--jquery-->
+<script src="js/jquery-ui.min.js"></script><!--jqueryUI-->
+<script src="js/all.min.js"></script><!--fontawesome-->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script><!--chart.js-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--aos-->
+<script src="js/main.js"></script><!--script da pagina-->
+</body>
+</html>
