@@ -339,7 +339,7 @@ header.cabecalho{
 .qrcode{
     width: 100px;
     height: 100px;
-    background-image: url(../img/qrcodeWhite.png);
+    background-image: url(../img/frame2.png);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 8px;
